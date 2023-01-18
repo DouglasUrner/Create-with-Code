@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  public bool gameOver = false;
 
-    // Update is called once per frame
-    void Update()
+  // Start is called before the first frame update
+  void Start()
+  {
+      
+  }
+
+  // Update is called once per frame
+  void Update()
+  {
+    if (gameOver)
     {
-        
+      GameOver();
     }
+  }
+
+  void GameOver()
+  {
+    // Reload scene.
+    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+  }
 }
