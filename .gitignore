@@ -8,9 +8,9 @@
 */[Bb]uild/
 */[Bb]uilds/
 */[Ll]ogs/
-*/[Mm]emoryCaptures/*.unitypackage
+*/[Mm]emoryCaptures/
 
-!/Starting Assets/
+!/Starting Assets/*.unitypackage
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !*/[Aa]ssets/**/*.meta
