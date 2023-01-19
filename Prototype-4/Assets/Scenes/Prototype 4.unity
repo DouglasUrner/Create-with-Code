@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af93424eda6fa4f8a88024726f4784d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 45
+  rotationSpeed: 90
 --- !u!4 &9710033
 Transform:
   m_ObjectHideFlags: 0
@@ -200,7 +200,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59bf64abcad2640808b596f16463d2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameInfoJSON: {fileID: 0}
   leftUIPanel: {fileID: 2027079701}
+  titleText: {fileID: 1762422091}
+  descText: {fileID: 1257336817}
+  startButton: {fileID: 288566580}
 --- !u!114 &124131432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,7 +387,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25, y: -600}
+  m_AnchoredPosition: {x: 25, y: -500}
   m_SizeDelta: {x: 160, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &288566580
@@ -653,6 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  outOfFrameY: -20
 --- !u!54 &1131553901
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -956,7 +961,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 25, y: -100}
-  m_SizeDelta: {x: 500, y: 500}
+  m_SizeDelta: {x: 500, y: 400}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1257336817
 MonoBehaviour:
@@ -1243,6 +1248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bed411e452b4ee58b22dd96612f1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameIdle: 1
+  gameEnding: 0
 --- !u!4 &1583853301
 Transform:
   m_ObjectHideFlags: 0
@@ -1467,7 +1474,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 10, y: -10}
-  m_SizeDelta: {x: 600, y: 710}
+  m_SizeDelta: {x: 600, y: 580}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2027079703
 MonoBehaviour:

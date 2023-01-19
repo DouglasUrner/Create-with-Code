@@ -25,13 +25,16 @@ public class PlayerController : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-    var forwardInput = Input.GetAxis("Vertical");
-    playerRb.AddForce(focalPoint.transform.forward * forwardInput * speed);
+    if (gameManager.gameIdle == false)
+    {
+      var forwardInput = Input.GetAxis("Vertical");
+      playerRb.AddForce(focalPoint.transform.forward * forwardInput * speed);
+    }
 
     // Detect if we've fallen off of the island.
     if (transform.position.y < outOfFrameY)
     {
-      gameManager.gameOver = true;
+      gameManager.gameEnding = true;
     }
   }
 }

@@ -5,25 +5,42 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-  public bool gameOver = false;
+  // Game states. Set by UI and PlayerController.
+  public bool gameIdle = true;      // Waiting to start.
+  public bool gameEnding = false;   // Player has "lost," cleaning up.
 
-  // Start is called before the first frame update
-  void Start()
+  private float savedTimeScale;
+
+  // Awake is called when we become active in the game.
+  void Awake()
   {
-      
+    DontDestroyOnLoad(gameObject);
+    savedTimeScale = Time.timeScale;
   }
 
   // Update is called once per frame
   void Update()
   {
-    if (gameOver)
+    if (!gameIdle)
     {
-      GameOver();
+      StartGame();
+    }
+
+    if (gameEnding)
+    {
+      EndGame();
     }
   }
 
-  void GameOver()
+  void StartGame()
   {
+    Time.timeScale = savedTimeScale;
+  }
+
+  void EndGame()
+  {
+    Time.timeScale = 0;
+    gameEnding = false;
     // Reload scene.
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
   }
