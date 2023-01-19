@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
+<<<<<<< Updated upstream
   productGUID: 00d60f0ba094d5144bfcc329d9510341
+=======
+  productGUID: 956594bca7815dd46bd06b64690b8a20
+>>>>>>> Stashed changes
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -42,8 +46,13 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
+<<<<<<< Updated upstream
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
+=======
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+>>>>>>> Stashed changes
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -76,7 +85,11 @@ PlayerSettings:
   androidFullscreenMode: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
+<<<<<<< Updated upstream
   runInBackground: 1
+=======
+  runInBackground: 0
+>>>>>>> Stashed changes
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -91,7 +104,11 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
+<<<<<<< Updated upstream
   gpuSkinning: 1
+=======
+  gpuSkinning: 0
+>>>>>>> Stashed changes
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -113,7 +130,11 @@ PlayerSettings:
   xboxOneDisableEsram: 0
   xboxOneEnableTypeOptimization: 0
   xboxOnePresentImmediateThreshold: 0
+<<<<<<< Updated upstream
   switchQueueCommandMemory: 0
+=======
+  switchQueueCommandMemory: 1048576
+>>>>>>> Stashed changes
   switchQueueControlMemory: 16384
   switchQueueComputeMemory: 262144
   switchNVNShaderPoolsGranularity: 33554432
@@ -134,7 +155,11 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
+<<<<<<< Updated upstream
   bundleVersion: 0.1
+=======
+  bundleVersion: 1.0
+>>>>>>> Stashed changes
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -148,15 +173,23 @@ PlayerSettings:
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
+<<<<<<< Updated upstream
   targetPixelDensity: 30
+=======
+  targetPixelDensity: 0
+>>>>>>> Stashed changes
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier: {}
+<<<<<<< Updated upstream
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
+=======
+  buildNumber: {}
+>>>>>>> Stashed changes
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
@@ -171,6 +204,7 @@ PlayerSettings:
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
+<<<<<<< Updated upstream
   StripUnusedMeshComponents: 1
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
@@ -178,6 +212,15 @@ PlayerSettings:
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 11.0
+=======
+  StripUnusedMeshComponents: 0
+  VertexChannelCompressionMask: 4054
+  iPhoneSdkVersion: 988
+  iOSTargetOSVersionString: 
+  tvOSSdkVersion: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 
+>>>>>>> Stashed changes
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -231,9 +274,15 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
+<<<<<<< Updated upstream
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@5.0.4
   templateDefaultScene: Assets/Scenes/SampleScene.unity
+=======
+  clonedFromGUID: 00000000000000000000000000000000
+  templatePackageId: 
+  templateDefaultScene: 
+>>>>>>> Stashed changes
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
@@ -267,6 +316,7 @@ PlayerSettings:
   AndroidAppBundleSizeToValidate: 150
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
+<<<<<<< Updated upstream
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
@@ -334,6 +384,13 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+=======
+  m_BuildTargetBatching: []
+  m_BuildTargetGraphicsJobs: []
+  m_BuildTargetGraphicsJobMode: []
+  m_BuildTargetGraphicsAPIs: []
+  m_BuildTargetVRSettings: []
+>>>>>>> Stashed changes
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
@@ -525,7 +582,11 @@ PlayerSettings:
   ps4RemotePlayKeyAssignment: -1
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
+<<<<<<< Updated upstream
   ps4EnterButtonAssignment: 1
+=======
+  ps4EnterButtonAssignment: 2
+>>>>>>> Stashed changes
   ps4ApplicationParam1: 0
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
@@ -548,7 +609,11 @@ PlayerSettings:
   ps4UseAudio3dBackend: 0
   ps4UseLowGarlicFragmentationMode: 1
   ps4SocialScreenEnabled: 0
+<<<<<<< Updated upstream
   ps4ScriptOptimizationLevel: 0
+=======
+  ps4ScriptOptimizationLevel: 2
+>>>>>>> Stashed changes
   ps4Audio3dVirtualSpeakerCount: 14
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
@@ -574,7 +639,11 @@ PlayerSettings:
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
+<<<<<<< Updated upstream
   webGLMemorySize: 16
+=======
+  webGLMemorySize: 32
+>>>>>>> Stashed changes
   webGLExceptionSupport: 1
   webGLNameFilesAsHashes: 0
   webGLDataCaching: 1
@@ -584,7 +653,11 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
+<<<<<<< Updated upstream
   webGLCompressionFormat: 1
+=======
+  webGLCompressionFormat: 0
+>>>>>>> Stashed changes
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -609,14 +682,22 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< Updated upstream
   metroPackageName: Template_3D
+=======
+  metroPackageName: Prototype-1
+>>>>>>> Stashed changes
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< Updated upstream
   metroApplicationDescription: Template_3D
+=======
+  metroApplicationDescription: Prototype-1
+>>>>>>> Stashed changes
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -663,8 +744,12 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
+<<<<<<< Updated upstream
   cloudServicesEnabled:
     UNet: 1
+=======
+  cloudServicesEnabled: {}
+>>>>>>> Stashed changes
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
