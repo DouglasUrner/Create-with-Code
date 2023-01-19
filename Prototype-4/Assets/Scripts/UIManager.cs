@@ -22,6 +22,9 @@ public class UIManager : MonoBehaviour
   {
     gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
     startButtonText = startButton.GetComponentInChildren<TextMeshProUGUI>();
+
+    gameInfo = JsonUtility.FromJson<GameInfo>(gameInfoJSON.text);
+    
     ResetUI();
   }
 

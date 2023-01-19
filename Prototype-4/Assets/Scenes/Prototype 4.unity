@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59bf64abcad2640808b596f16463d2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameInfoJSON: {fileID: 0}
+  gameInfoJSON: {fileID: 4900000, guid: 34e7c3354deb547b4b9ca6241885f70f, type: 3}
   leftUIPanel: {fileID: 2027079701}
   titleText: {fileID: 1762422091}
   descText: {fileID: 1257336817}
