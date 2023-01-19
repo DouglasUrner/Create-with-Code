@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
   {
     Time.timeScale = 0;
     gameEnding = false;
+    gameIdle = true;
     // Reload scene.
     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
   }
