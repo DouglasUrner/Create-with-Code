@@ -5,7 +5,6 @@ using UnityEngine;
 public class ObstacleSpawner : MonoBehaviour
 {
     public GameObject obstaclePrefab;
-    public GameObject obstacleContainer;
     public int obstacleCount = 10;
     public float spacingMin = 20.0f;
     public float spacingMax = 30.0f;
