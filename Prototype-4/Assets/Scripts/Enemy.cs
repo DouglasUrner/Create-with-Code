@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
   public float speed;
+  public float outOfFrameY = -20.0f;
 
   private Rigidbody enemyRb;
   private GameObject player;
@@ -22,10 +23,15 @@ public class Enemy : MonoBehaviour
   void Update()
   {
     if (gameManager.gameIdle) { return; }
-    
+
     var lookDirection = (player.transform.position - transform.position).
       normalized;
 
     enemyRb.AddForce(lookDirection * speed);
+
+    if (transform.position.y < outOfFrameY)
+    {
+      Destroy(gameObject);
+    }
   }
 }
