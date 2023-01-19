@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
   // Game states. Set by UI and PlayerController.
   public bool gameIdle = true;      // Waiting to start.
@@ -11,10 +11,10 @@ public class GameManager : MonoBehaviour
 
   private float savedTimeScale;
 
-  // Awake is called when we become active in the game.
-  void Awake()
+  // Start is called before the first frame.
+  void Start()
   {
-    DontDestroyOnLoad(gameObject);
+    //DontDestroyOnLoad(gameObject);
     savedTimeScale = Time.timeScale;
   }
 
