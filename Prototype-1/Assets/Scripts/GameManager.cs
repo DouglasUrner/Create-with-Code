@@ -14,8 +14,8 @@ public class GameManager : Singleton<GameManager>
   // Start is called before the first frame.
   void Start()
   {
-    //DontDestroyOnLoad(gameObject);
     savedTimeScale = Time.timeScale;
+    Time.timeScale = 0;
   }
 
   // Update is called once per frame

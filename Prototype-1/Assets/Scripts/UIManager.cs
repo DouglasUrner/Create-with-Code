@@ -25,6 +25,7 @@ public class UIManager : MonoBehaviour
 
     gameInfo = JsonUtility.FromJson<GameInfo>(gameInfoJSON.text);
     
+    PositionUIElements();
     ResetUI();
   }
 
@@ -38,11 +39,17 @@ public class UIManager : MonoBehaviour
     leftUIPanel.gameObject.SetActive(true);
     titleText.text = gameInfo.title;
     descText.text = gameInfo.description;
+    startButtonText.text = gameInfo.startButtonLabel;
   }
 
   public void StartButtonClicked()
   {
     leftUIPanel.gameObject.SetActive(false);
     gameManager.gameIdle = false;
+  }
+
+  void PositionUIElements()
+  {
+
   }
 }
