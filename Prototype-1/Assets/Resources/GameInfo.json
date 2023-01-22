@@ -1,5 +1,9 @@
 {
   "title":        "Prototype 1",
   "description":  "Drive down the road, don't (or do) crash into the obstacles as you go!.\n\nUse AWSD or the arrow keys to control your player.",
-  "startButtonLabel": "Start"
+  "gameOverMessage": "",
+  "startButtonLabel": "Start",
+  "replayButtonLabel": "Play Again?",
+  "displayScore": false,
+  "displayHealth": false
 }
