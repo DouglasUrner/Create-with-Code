@@ -1,0 +1,9 @@
+{
+  "title":        "Prototype 2",
+  "description":  "Hungry animals are charging -- feed them before the get past you.\n\nUse AD or the arrow keys to move your player and space to fling food.",
+  "gameOverMessage": "Too many animals went hungry, would you like to try again?",
+  "startButtonLabel": "Start",
+  "replayButtonLabel": "Play Again?",
+  "displayScore": true,
+  "displayHealth": true
+}
